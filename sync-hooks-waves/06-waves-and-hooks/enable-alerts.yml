@@ -4,7 +4,10 @@ metadata:
   namespace: example06
   generateName: enable-alerts-
   labels:
-    codefresh.io/cert: enable-job  
+    codefresh.io/cert: enable-job 
+  Annotations:
+    argocd.argoproj.io/sync-wave: postsync
+    argocd.argoproj.io/hook: 30
 spec:
   template:
     spec:
