@@ -6,8 +6,9 @@ metadata:
   labels:
     codefresh.io/cert: db-job  
   Annotations:
-    argocd.argoproj.io/sync-wave: 10
     argocd.argoproj.io/hook: presync
+    argocd.argoproj.io/sync-wave: 10
+    
 spec:
   template:
     spec:
