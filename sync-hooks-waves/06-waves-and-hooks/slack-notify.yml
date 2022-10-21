@@ -6,8 +6,9 @@ metadata:
   labels:
     codefresh.io/cert: slack-job  
   Annotations:
-    argocd.argoproj.io/sync-wave: 30
     argocd.argoproj.io/hook: postsync
+    argocd.argoproj.io/sync-wave: 30
+    
 spec:
   template:
     spec:
