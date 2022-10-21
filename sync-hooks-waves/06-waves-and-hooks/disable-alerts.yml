@@ -6,7 +6,7 @@ metadata:
   labels:
     codefresh.io/cert: disable-job 
   Annotations:
-    argocd.argoproj.io/hook: presync
+    argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: 20
     
 spec:
